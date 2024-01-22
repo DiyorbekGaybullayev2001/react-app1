@@ -1,0 +1,52 @@
+.section2{
+    background-image: url(../images/section2_bg.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.section2 h1{
+    color: #4E9F0D;
+    font-size: 70px;
+    text-align: center;
+    
+}
+.chiziq{
+    width: 300px;
+    height: 2px;
+    background-color: #4E9F0D;
+    margin: auto;
+}
+.paragfs{
+    /* margin: auto !important; */
+    /* margin-bottom: 50px; */
+    max-width: 1300px;
+    margin: auto;
+    color: rgb(155, 155, 155);
+    font-size: 22px;
+    /* text-align: center; */
+    /* margin: 0px 10px; */
+    padding: 0px 10px;
+}
+
+@media(max-width:666px){
+    .section2 h1{
+        font-size: 50px;
+    }
+    .chiziq{
+        width: 200px;
+    }
+    .paragfs{
+        margin: 0px 10px !important; 
+
+    }
+}
+@media(max-width:310px){
+    .section2 h1{
+        font-size: 40px;
+    }
+    .chiziq{
+        width: 100px;
+    }
+}
